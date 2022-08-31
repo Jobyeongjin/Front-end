@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+}
+.wrap {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+.card {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card img {
+    width: 100%;
+    border-radius: 5px;
+}
+.card .subtext {
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    color: #A9A5A4;
+    margin-bottom: 5px;
+}
+.card h3 {
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.card .price {
+    font-size: 22px;
+    font-weight: 700;
+    margin: 5px 0;
+}
+.card .emp {
+    color: #4DD2F3;
+}
+.card p {
+    font-weight: 600;
+}
+.card .review {
+    color: #A9A5A4;
+}
