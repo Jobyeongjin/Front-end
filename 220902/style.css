@@ -1,0 +1,156 @@
+/* Global */
+body{
+  height: 100vh;
+}
+
+ul{
+  list-style: none;
+  color: gray;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+
+/* Header */
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  height: 80px;
+  padding: 0 40px;
+  background-color: #fff;
+}
+
+.header-logo{
+  height: 60px;
+}
+
+.header-list{
+  display: flex;
+  margin-bottom: 0;
+}
+
+.header-list__item{
+  margin-right: 1rem;
+}
+
+.header-list__item a{
+  color: gray;
+  transition: all ease-in-out .3s;
+}
+
+.header-list__item a:hover{
+  color: gold;
+}
+
+
+/* Banner */
+.banner {
+  background-image: url(./images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 320px;
+}
+
+.banner h1 {
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+
+/* Board */
+.board {
+  display: flex;
+  width: 100%;
+}
+
+.genre {
+  width: 20%;
+  height: 550px;
+}
+
+.genre__title {
+  padding: 10px 0 0 10px;
+}
+
+.genre__list {
+  padding: 0;
+}
+
+.genre__list__item {
+  padding: 5px 10px;
+}
+
+.genre__list__item a {
+  color: black;
+}
+
+.genre__list__item:hover {
+  background-color: #EEEEEE;
+}
+
+
+/* Movie-wrap */
+.movie-wrap {
+  width: 80%;
+  height: 550px;
+}
+
+.movie-rank {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 24px 24px 0 24px;
+  background-color: #EEEEEE;
+}
+
+.movie-rank__list {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.movie-rank__list__item img {
+  width: 300px;
+  border-radius: 15px;
+  box-shadow: 5px 10px 10px 2px rgba(0, 0, 0, .3);
+}
+
+.movie-title {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 24px;
+  margin-top: 5px;
+}
+
+.movie-title p {
+  width: 300px;
+  text-align: center;
+}
+
+
+/* Footer */
+.footer {
+  position: sticky;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  background-color: black;
+}
+
+.footer-text{
+  vertical-align: middle;
+  color: #fff;
+  margin: 0;
+}
