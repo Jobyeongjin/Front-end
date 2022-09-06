@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" />
+  <style>
+    .ft,
+    .fb {
+      width: 150px;
+      height: 150px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Display -->
+  <h2>Display</h2>
+  <div class="d-inline p-2 bg-primary text-white">d-inline</div>
+  <div class="d-inline p-2 bg-dark text-white">d-inline</div>
+  <div class="d-block p-2 bg-primary text-white">d-block</div>
+  <div class="d-block p-2 bg-dark text-white">d-block</div>
+  <!-- sm에서만 숨김 -->
+  <div class="box bg-warning d-sm-none d-md-block">보이나?? 안보이나??</div>
+  <!-- md에서만 볼 수 없음 -->
+  <div class="box bg-success d-md-none d-xl-block">보이나?? 안보이나??</div>
+
+
+  <!-- Position -->
+  <h2>Position</h2>
+  <div class="ft box fixed-top-50 bg-danger border border-dark text-white">fixed-top</div>
+  <div class="fb box fixed-bottom bg-danger border border-dark text-white">fixed-top</div>
+
+</body>
+</html>
