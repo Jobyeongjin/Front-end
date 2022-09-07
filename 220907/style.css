@@ -1,0 +1,26 @@
+.navbar {
+  background-color: #F6F5EF;
+}
+
+.navbar > .container > a {
+  color : #007042;
+}
+
+.btn {
+  background-color: #00704A;
+  color: #fff;
+}
+
+.footer > .container > button {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+
+.footer > .container > button:last-child {
+  margin-right: 0;
+}
+
+.footer__text {
+  font-size: 12px;
+}

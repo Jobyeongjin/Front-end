@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Template</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">스타벅스</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">COFFEE</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">MENU</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">STORE</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled">RESPONSIBILITY</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- Main -->
+  <div class="main container">
+    <!-- Banner -->
+    <div class="banner row my-5 align-items-center">
+      <div class="col-12 col-lg-7">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="https://image.istarbucks.co.kr/upload/banner/Ikn1Qa_20220901124258982.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="https://image.istarbucks.co.kr/upload/banner/U11831_20220825152728729.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="https://image.istarbucks.co.kr/upload/banner/wW63vb_20211231154557623.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <div class="col-12 col-lg-5 px-4 mt-5">
+        <h1>스타벅스만의 특별한 혜택, 스타벅스 리워드</h1>
+        <p>스타벅스 회원이세요? 로그인을 통해 나만의 리워드를 확인해보세요.
+          스타벅스 회원이 아니세요? 가입을 통해 리워드 혜택을 즐기세요.</p>
+        <a class="banner__btn btn" href="#">회원가입</a>
+      </div>
+    </div>
+    <!-- Call -->
+    <div class="card my-5">
+      <div class="card-body text-white bg-secondary py-5 text-center rounded">
+        회원 가입 후, 스타벅스 e-Gift Card를 "나에게 선물하기"로 구매하시고, 편리하게 등록하세요! 카드를 등록하여 스타벅스 리워드 회원이 되신 후, 첫 구매를 하시면 무료 음료쿠폰을 드립니다!
+      </div>
+    </div>
+    <!-- Card -->
+    <div class="row">
+      <div class="col-12 col-md-6 col-lg-4 mb-5">
+        <div class="card text-center mx-auto" style="width: 18rem;">
+          <img src="https://image.istarbucks.co.kr/img/event/2022/FoamFoamYouthberryTea_220418.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">폼폼 유스베리 티</h5>
+            <p class="card-text">저녁 하늘의 노을이 물드는 듯한 비주얼의 음료.
+              달콤한 푸르티 폼과 화사한 유스베리의 풍미가 만나 입안 가득 달콤한 풍미가 가득한 매력적인 음료.</p>
+            <a href="#" class="btn">나만의 음료로 등록</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 mb-5">
+        <div class="card text-center mx-auto" style="width: 18rem;">
+          <img src="https://image.istarbucks.co.kr/img/event/2022/FoamFoamMintTea_220418.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">폼폼 민트 티</h5>
+            <p class="card-text">아침 하늘의 구름이 뭉게뭉게 피어나는 것 같은 비주얼의 음료.
+              달콤한 푸르티 폼과 상큼한 민트 티가 만나 입안 가득 기분좋은 깔끔함을 주는 음료.</p>
+            <a href="#" class="btn">나만의 음료로 등록</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 mb-5">
+        <div class="card text-center mx-auto" style="width: 18rem;">
+          <img src="https://image.istarbucks.co.kr/img/event/2022/IceYouthberryRoseTeaBreeze_220418.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">아이스 유스베리 로즈 티 브리즈</h5>
+            <p class="card-text">일랑일랑 향이 코끝에 맴돌고, 풍성한 장미 향이 입안을 가득 채우는 매력적인 음료.
+              유스베리의 과일 풍미가 더해져 향긋 달콤하게 즐길 수 있는 음료.</p>
+            <a href="#" class="btn">나만의 음료로 등록</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  <!-- Footer -->
+  <footer class="footer py-5 bg-dark">
+    <div class="container px-4 px-lg-5 text-white text-center">
+      <button type="button" class="btn btn-outline-white" disabled>찾아오시는길</button>
+      <button type="button" class="btn btn-outline-white" disabled>신규입점제의</button>
+      <button type="button" class="btn btn-outline-white" disabled>사이트맵</button>
+      <div class="footer__text container px-4 px-lg-5 text-white text-center">Copyright © Your Website 2022</div>
+    </div>
+  </footer>
+
+
+  <!-- Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
