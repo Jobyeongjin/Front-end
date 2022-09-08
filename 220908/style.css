@@ -1,0 +1,30 @@
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 4px;
+  background-color: #337EFD;
+  color: #fff;
+  margin-bottom: 12px;
+}
+
+.text > p {
+  margin-bottom: 5px;
+}
+
+.fa-check {
+  font-size: 12px;
+  color: #337EFD;
+}
+
+#name,
+#exampleInputEmail1, 
+#phoneNumber {
+  height: 3rem;
+}
+
+#message {
+  height: 10rem;;
+}
