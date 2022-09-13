@@ -1,0 +1,41 @@
+/* Navbar */
+.logo {
+  height: 64px;
+}
+
+.nav-link:hover {
+  color: gold !important; 
+}
+
+
+/* Community */
+.community__list .list-group-item:hover {
+  background-color: #e9ecef;
+}
+
+.community__cards .card{
+  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.1);
+  transition: all ease-in-out .2s;
+}
+
+.community__cards .card:hover {
+  transform: scale(1.05);
+}
+
+
+/* Media */
+@media screen and (min-width: 992px) {
+  .community__cards {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .community__cards {
+    display: block;
+  }
+
+  .community__board {
+    display: none;
+  }
+}
