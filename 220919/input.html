@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Input</title>
+  <script defer src="./input.js"></script>
+  <style>
+    body {
+      height: 2000px;
+    }
+  </style>
+</head>
+<body>
+  <button onclick="alertMessage()">나를 눌러봐!</button>
+  <button id="my-btn">나를 눌러봐!!</button>
+  <hr>
+  <p id="my-paragraph"></p>
+  <form action="#">
+    <label for="text-input">내용을 입력하세요.</label>
+    <input type="text"  id="text-input">
+  </form>
+  <hr>
+  <h2>Change My Color</h2>
+  <label for="color-input">원하는 색상을 영어로 입력하세요.</label>
+  <input id="color-input">
+  <hr>
+  <input type="checkbox" id="my-checkbox">
+  <form action="/articles/" id="my-form">
+    <input type="text">
+    <input type="submit" value="제출!">
+  </form>
+  <a href="https://google.com/" target="_blank" id="my-link">GoToGoogle</a>
+</body>
+</html>
